@@ -208,5 +208,5 @@ app.post("/fulfill-order", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Node server listening on port ${PORT}`);
+  console.log(` Node server listening on port ${PORT}`);
 });
